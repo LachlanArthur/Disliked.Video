@@ -1,0 +1,25 @@
+{
+	"name": "disliked.video",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.html",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"ts": "tsc --watch",
+		"sass": "node-sass --watch --source-map true --output . css.scss"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/LachlanArthur/Disliked.Video.git"
+	},
+	"author": "Lachlan Arthur",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/LachlanArthur/Disliked.Video/issues"
+	},
+	"homepage": "https://github.com/LachlanArthur/Disliked.Video#readme",
+	"devDependencies": {
+		"node-sass": "^4.5.3",
+		"typescript": "^2.3.4"
+	}
+}
