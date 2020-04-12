@@ -35,7 +35,8 @@ button {
 	box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 	background-color: hsl(0,0%,90%);
 
-	&:focus  { background-color: hsl(0,0%,95%); }
+	&:focus,
+	&:hover  { background-color: hsl(0,0%,95%); }
 	&:active { background-color: hsl(0,0%,85%); }
 }
 
