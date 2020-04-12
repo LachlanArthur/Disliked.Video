@@ -93,7 +93,7 @@ function getVideos( pageToken: string = '' ) {
 			access_token: ACCESS_TOKEN,
 		};
 		if ( pageToken ) params[ 'pageToken' ] = pageToken;
-		return YouTubeAPIRequest( 'videos', params );
+		return YouTubeAPIRequest( 'videos', params ) as Promise<YouTubeAPIVideoList>;
 	} ).then( renderVideos );
 }
 

@@ -4,9 +4,8 @@
 	"description": "",
 	"main": "index.html",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"ts": "tsc --watch",
-		"sass": "node-sass --watch --source-map true --output . css.scss"
+		"build": "tsc         && node-sass --source-map true --output . css.scss",
+		"watch": "tsc --watch && node-sass --source-map true --output . css.scss --watch"
 	},
 	"repository": {
 		"type": "git",
@@ -19,7 +18,7 @@
 	},
 	"homepage": "https://github.com/LachlanArthur/Disliked.Video#readme",
 	"devDependencies": {
-		"node-sass": "^4.5.3",
-		"typescript": "^2.3.4"
+		"node-sass": "^4.0",
+		"typescript": "^3.0"
 	}
 }
